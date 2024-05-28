@@ -1,0 +1,34 @@
+{
+  "name": "rapid-development-theme",
+  "displayName": "Rapid Development Theme",
+  "description": "A theme optimized for rapid development",
+  "version": "0.0.1",
+  "publisher": "ahsan-saeed",
+  "engines": {
+    "vscode": "^1.89.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "author": {
+    "name": "Ahsan Saeed",
+    "url": "https://github.com/thehsansaeed"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/thehsansaeed/rapid-development-theme"
+  },
+  "bugs": {
+    "url": "https://github.com/thehsansaeed/rapid-development-theme/issues"
+  },
+  "homepage": "https://github.com/thehsansaeed/rapid-development-theme",
+  "contributes": {
+    "themes": [
+      {
+        "label": "Rapid Development Theme",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Rapid Development Theme-color-theme.json"
+      }
+    ]
+  }
+}
