@@ -4,42 +4,78 @@
   "colors": {
     "editor.background": "#0f1230",
     "editor.foreground": "#ffffff",
-    "sideBar.background": "#090b26",
-    "sideBar.foreground": "#ffffff",
+    //"editor.sidebar": "#ff0000",
     "statusBar.background": "#090b20",
-    "activityBar.background": "#090b26",
-    "activityBar.foreground": "#ffffff",
+    "titleBar.activeBackground": "#090b22",
+    "titleBar.activeForeground": "#ffffff",
     "tab.activeBackground": "#090b26",
     "tab.activeForeground": "#ffffff",
     "tab.inactiveForeground": "#ffffff",
     "tab.inactiveBackground": "#0f1230",
-    "editorGroupHeader.tabsBackground": "#0f1230"
-    // Add other color customizations here
+    "editorGroupHeader.tabsBackground": "#0f1230",
+    "sideBar.background": "#090b26",
+    "sideBar.foreground": "#ffffff",
+    "sideBarSectionHeader.background": "#090b26",
+    "sideBar.border": "#090b26",
+    "activityBar.background": "#090b26",
+    "activityBar.foreground": "#ffffff",
+    "activityBar.border": "#444444"
   },
-  "tokenColors": [
-    {
-      "scope": "entity.name.function.python",
-      "settings": {
-        "foreground": "#fb467b"
+  "editor.tokenColorCustomizations": {
+    "textMateRules": [
+      {
+        "scope": "entity.name.function.python",
+        "settings": {
+          "foreground": "#fb467b"
+        }
+      },
+      {
+        "scope": "string.quoted.single",
+        "settings": {
+          "foreground": "#16f8b6"
+        }
+      },
+      {
+        "scope": "keyword.control.flow.python",
+        "settings": {
+          "foreground": "#ffffff"
+        }
+      },
+      {
+        "scope": "keyword.control.import.python",
+        "settings": {
+          "foreground": "#f926ae"
+        }
       }
-    },
-    {
-      "scope": "string.quoted.single",
-      "settings": {
-        "foreground": "#16f8b6"
-      }
-    },
-    {
-      "scope": "keyword.control.flow.python",
-      "settings": {
-        "foreground": "#ffffff"
-      }
-    },
-    {
-      "scope": "keyword.control.import.python",
-      "settings": {
-        "foreground": "#f926ae"
-      }
-    }
-  ]
+    ]
+  },
+  "editor.inlineSuggest.enabled": true,
+  "github.copilot.enable": {
+    "*": true,
+    "plaintext": true,
+    "markdown": false,
+    "scminput": false,
+    "Log": true
+  },
+  "tabnine.experimentalAutoImports": true,
+  "code-runner.executorMap": {},
+  "codeium.enableConfig": {
+    "*": true,
+    "vscode-openai-log": true,
+    "plaintext": true,
+    "code-runner-output": true
+  },
+  "mssql.connections": [],
+  "mssql.objectExplorer.groupBySchema": false,
+  "mssql.enableQueryHistoryCapture": false,
+  "github.copilot-labs.advanced": {},
+  "php.validate.executablePath": "",
+  "editor.renderLineHighlightOnlyWhenFocus": true,
+  "workbench.iconTheme": "material-icon-theme",
+  "dotnetAcquisitionExtension.existingDotnetPath": [],
+  "liveServer.settings.donotShowInfoMsg": true,
+  "auto-rename-tag.activationOnLanguage": ["*"],
+  "editor.formatOnSave": true,
+  "workbench.startupEditor": "none",
+  "Devdb.colorTheme": "dark"
 }

@@ -2,7 +2,7 @@
   "name": "rapid-development-theme",
   "displayName": "Rapid Development Theme",
   "description": "A theme optimized for rapid development",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "publisher": "ahsansaeed",
   "engines": {
     "vscode": "^1.89.0"
